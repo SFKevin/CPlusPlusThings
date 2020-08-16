@@ -1,5 +1,7 @@
 # C++ 那些事
 
+[English version is here](./README_EN.md)
+
 
 感谢各位对《C++ 那些事》的支持，现将内容也同步至网站，可以打开网站直接阅读~欢迎大家 star、转发、PR。
 
@@ -10,13 +12,17 @@ https://light-city.club/sc/
 
 ### 关于作者
 
+公众号已开放两大入口，分别是专辑与菜单，可以直接在微信公众号上阅读《C++那些事》内容，配上该仓库的代码，将会非常的爽，建议大家关注一波。
+
 个人公众号：guangcity
 
-![](./img/wechat.jpg)
+![](https://light-city.club/sc/assets/images/wechat.jpg)
 
 欢迎大家反馈及C++交流，本人在微信创建了C++那些事交流群，优质的C++资源交流区，期待大家关注上面公众号，点击公众号右下角->联系我，拉你入群。
 
 ---
+
+
 
 ### 项目运行
 
@@ -29,8 +35,6 @@ https://light-city.club/sc/
   CLion  gcc/g++
 
 尽量用g++，因为一开始我用的vim写的，所以纯g++，后来用编译器CLion，部分有CMakeLists.txt文件，直接导入就行，后面会更新这个文件包含整个项目，持续关注~
-
-
 
 ### 0.项目概要
 
@@ -219,6 +223,7 @@ C++2.0 是一个简称，意为「现代 C++」，包括 C++11/14/17/20。
 ### 4.设计模式
 
 - [单例模式](./design_pattern/singleton)
+- [生产消费者模式](./design_pattern/producer_consumer)
 
 ### 5. [STL 源码剖析](./src_analysis/stl)
 
@@ -344,20 +349,30 @@ map<int, int> mp{
 
 ### 11.贡献者
 
+
+
+| 贡献人  | 地址                          |
+| ------- | ----------------------------- |
+| 光城    | https://github.com/Light-City |
+| ChungZH | https://github.com/ChungZH    |
+| xliu79  | https://github.com/xliu79     |
+
+
+
+### 12.赞助我
+
+如果觉得不错，赞助我吧~
+
 <table>
   <tbody>
     <tr>
-      <th align="center" style="width: 80px;">
-        <a href="https://github.com/Light-City">
-          <img src="https://avatars2.githubusercontent.com/u/25699850?s=50&v=4" style="width: 50px;"><br>
-          <sub>Francis</sub>
-        </a><br>
+      <th align="center" style="height=200 width="200">
+          <img src="https://light-city.club/sc/assets/images/alipay.jpg" height="200" width="200" ><br>
+          支付宝
       </th>
-      <th align="center" style="width: 80px;">
-        <a href="https://github.com/ChungZH">
-          <img src="https://avatars1.githubusercontent.com/u/42088872?s=50&v=4" style="width: 50px;"><br>
-          <sub>ChungZH</sub>
-        </a><br>
+      <th align="center" style="height=200 width="200">
+          <img src="https://light-city.club/sc/assets/images/wechat.png" height="200" width="200" ><br>
+          微信
       </th>
     </tr>
   </tbody>
